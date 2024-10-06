@@ -2,7 +2,9 @@
 # also used code from the contour features tutorial for the bounding box: https://docs.opencv.org/4.x/dd/d49/tutorial_py_contour_features.html
 # https://docs.opencv.org/4.x/d4/d73/tutorial_py_contours_begin.html
 
-
+# the range I needed to track the object was only from blue 90 to blue 120. I could get the range a little smaller but the tracking because a bit less reliable.
+# making the environment brighter didn't change the tracking but making the room darker make it lose the object occasionally
+# using the color picker on my phone, lower to medium brightness was better and it wasn't able to track higher brightness 
 
 import cv2
 import numpy as np
