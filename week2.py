@@ -1,0 +1,1 @@
+print("Output for ECE 180DA week 2 lab")
